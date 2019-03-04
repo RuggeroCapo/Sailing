@@ -5,7 +5,7 @@
 
    function getDataHistory(sensorValues) {
      var values = [];
-     console.log(sensorValues);
+     // console.log(sensorValues);
      var splitedStorage = sensorValues.split(",");
      values = splitedStorage;
      return values
